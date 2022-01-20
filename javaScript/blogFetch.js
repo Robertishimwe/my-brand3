@@ -97,7 +97,7 @@ let myKey = this.key;
 
 
     let temp = `
-    <div class="post-container post1">
+    <div class="post-container post1" id=`${key}` onclick="viewPost('${key}')>
     <div class="feature-img-container">
      <img src="${img}" alt="featured image" class="img5" onclick="viewArticle()">
     </div>
